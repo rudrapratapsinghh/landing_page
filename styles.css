@@ -125,3 +125,17 @@ button {
     color: #f9faf8;
     font-weight: 900;
 }
+
+.footer_group {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.signupbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
