@@ -1,6 +1,7 @@
 .main {
     font-family: 'Roboto', sans-serif;
     background-color: #1f2937;
+    
 }
 
 .footer {
@@ -21,6 +22,8 @@ h1 {
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 8px;
 }
 
 .logo {
@@ -46,4 +49,47 @@ h2 {
     font-weight: 300;
     font-size: 36px;
     color:#1F2937
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.topimg {
+    width: auto;
+    height: 400px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.second {
+    display: flex;
+    flex: 1;
+}
+
+.third {
+    display: flex;
+    flex: 1;
+}
+
+.fourth {
+    display: flex;
+    flex: 1;
+}
+
+figure img {
+    width:400px;
+    height: auto;
 }
